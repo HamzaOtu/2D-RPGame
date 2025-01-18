@@ -24,7 +24,7 @@ public class PlayerHealth : MonoBehaviour, IDamagable
 
     public void TakeDamage(float amount)
     {
-        stats.Health -= amount;
+        stats.Health = Mathf.Max(stats.Health -= amount, 0f);
         if (stats.Health <= 0f)
         {
             PlayerDead();
