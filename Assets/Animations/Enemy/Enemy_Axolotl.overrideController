@@ -6,10 +6,10 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Enemy_Mushroom
+  m_Name: Enemy_Axolotl
   m_Controller: {fileID: 9100000, guid: 95eab137bdabb984da9633b0963e08b1, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: 541c906b6f86c9148bac0a49317b413d, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: d6d6971bec3c2574088ebf84473d21c4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5aeb8245f66daa543998539f4360acc6, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: 110ce7032d1f41f4aa40ea3df1309c42, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 8fe81201f170f2446a0e647d73979460, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 094189536b290ab4cb0ff2e364b59ea5, type: 2}
