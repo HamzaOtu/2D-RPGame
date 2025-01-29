@@ -57069,6 +57069,7 @@ GameObject:
   - component: {fileID: 1346004507}
   - component: {fileID: 1346004512}
   - component: {fileID: 1346004513}
+  - component: {fileID: 1346004514}
   m_Layer: 6
   m_Name: Enemy_Beast
   m_TagString: Enemy
@@ -57259,6 +57260,23 @@ MonoBehaviour:
   speed: 1.5
   wanderTime: 1
   moveRange: {x: 2, y: 2}
+--- !u!114 &1346004514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346004506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74bae06dc0cbea741992225f4c8da77e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 1.0754471, y: 0.38781548, z: 0}
+  - {x: 3.5080185, y: 0.4297552, z: 0}
+  - {x: 1.0335007, y: -1.2758427, z: 0}
+  - {x: 3.5080185, y: -1.2339025, z: 0}
 --- !u!1001 &1349359159
 PrefabInstance:
   m_ObjectHideFlags: 0
